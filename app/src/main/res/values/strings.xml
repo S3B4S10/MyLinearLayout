@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name1">Ejercicio 1</string>
+    <string name="app_name2">Ejercicio 2</string>
+    <string name="app_name3">Ejercicio 3</string>
+    <string name="app_name4">Ejercicio 4</string>
+    <string name="app_name5">Ejercicio 5</string>
+    <string name="app_name6">Ejercicio 6</string>
+    <string name="app_name7">Ejercicio 7</string>
+    <string name="app_name8">Ejercicio 8</string>
+    <string name="app_name9">Ejercicio 9</string>
+    <string name="app_name11">Ejercicio 11</string>
+    <string-array name="array_spinner_values">
+        <item>Choose a layout</item>
+        <item>LinearLayout</item>
+        <item>RelativeLayout</item>
+        <item>FrameLayout</item>
+        <item>TableLayout</item>
+        <item>AbsoluteLayout</item>
+        <item>GridLayout</item>
+    </string-array>
+</resources>

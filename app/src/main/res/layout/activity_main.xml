@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+       <!--ejercicio 1-->
+<!--
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="HELLO!"
+        />
+    -->
+
+
+    <!--ejercicio 2-->
+    <!--
+
+         <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HELLO!"
+            />
+          <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hi!"
+
+            />
+        -->
+
+
+    <!--ejercicio 3-->
+    <!--
+           <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="HELLO!"
+                />
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hi!"
+
+                />
+            -->
+
+    <!--ejercicio 4-->
+    <!--
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HELLO!"
+            />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hi!"
+
+            />
+            -->
+
+    <!--ejercicio 5-->
+    <!--
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="HELLO!"
+            />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hi!"
+            android:layout_gravity="center"
+
+            />
+        -->
+
+    <!--ejercicio 6-->
+    <!--
+       <EditText
+           android:id="@+id/edit_text1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="To:"
+          />
+       <EditText
+           android:id="@+id/edit_text2"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:gravity="top"
+           android:hint="Message"
+           />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="send"
+            />
+        -->
+
+    <!--ejercicio 7-->
+    <!--
+    <LinearLayout
+        android:id="@+id/Li"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            <ToggleButton
+                android:id="@+id/toogle_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="On"
+                android:textOff="Off"
+
+                />
+            <ToggleButton
+                android:id="@+id/toogle_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="On"
+                android:textOff="Off"
+                />
+    </LinearLayout>
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="Swtich example"
+        />
+        -->
+
+    <!--ejercicio 8-->
+    <!--
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How do you like your tea served?"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+        />
+        <ToggleButton
+            android:id="@+id/toogle_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="Hot"
+            android:textOff="Cold"
+            android:layout_marginLeft="8dp"
+        />
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Milk"
+            android:layout_marginLeft="16dp"
+        />
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sugar"
+            android:layout_marginLeft="16dp"
+        />
+        <CheckBox
+            android:id="@+id/checkbox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lemon"
+            android:layout_marginLeft="16dp"
+        />
+        -->
+
+    <!--ejercicio 9-->
+    <!--
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android Spinner Example"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:entries="@array/array_spinner_values"
+                android:layout_gravity="center"
+
+                />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="           "
+                />
+            -->
+
+    <!--ejercicio 11-->
+
+      <ImageButton
+          android:id="@+id/imagebutton1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/checkright"
+          android:layout_marginTop="16dp"
+          android:layout_marginBottom="16dp"
+          android:layout_marginLeft="16dp"
+          />
+        <ImageButton
+            android:id="@+id/imagebutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/checkwrong"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+        />
+
+        -->
+
+
+
+
+
+</LinearLayout>
